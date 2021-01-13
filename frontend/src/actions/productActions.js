@@ -4,6 +4,7 @@ import {
   PRODUCT_LIST_FAIL,
 } from "../constants/productConstants";
 import { productListReducer } from "../reducers/productReducers";
+import axios from "axios";
 
 export const listProducts = () => async (dispatch) => {
   try {
